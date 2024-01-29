@@ -1,0 +1,1 @@
+This is just a minimal example of a TypeScript project targeted for a browser that imports a module but produces only a single JavaScript file which includes the module code.
