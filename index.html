@@ -3,23 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>TypeScript Demo</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
-  <script>
-    requirejs.config({
-      baseUrl: 'dist', // the name of the dir containing bundle.js
-      paths: {
-        // Define an alias for 'main' if it doesn't directly map to 'main.js'
-        // This step might be unnecessary if all code is bundled in 'bundle.js'
-        // and 'main' is defined within that bundle.
-      }
-    });
-    // Load the 'main' module from the bundle
-    require(['main'], function() {
-      console.log('Main module loaded successfully.');
-    });
-  </script>
 </head>
 <body>
-<script src="dist/bundle.js"></script>
+<script type="module" src="./dist/main.js"></script>
 </body>
 </html>

@@ -1,13 +1,10 @@
 {
   "compilerOptions": {
-    "outFile": "./dist/bundle.js",
-    "module": "amd",
-    "target": "es5",
-    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "ES2015",
+    "outDir": "./dist",
     "sourceMap": true,
     "noImplicitAny": true
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }
