@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outFile": "./dist/bundle.js",
+    "module": "amd",
+    "target": "es5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noImplicitAny": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
