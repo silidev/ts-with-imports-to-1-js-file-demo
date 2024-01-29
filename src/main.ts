@@ -1,4 +1,6 @@
 import { greet } from './greeter';
 
-const user = 'World';
-alert(greet(user));
+console.log(greet("1"));
+console.log(greet("2"));
+console.log(greet("3"));
+console.log(greet("4"));
